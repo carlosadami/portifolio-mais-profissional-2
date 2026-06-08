@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OrbitGuard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🚀 OrbitGuard</h1>
+
+<p>Centro de Monitoramento Orbital</p>
+
+<div id="relogio"></div>
+
+</header>
+
+<section class="cards">
+
+<div class="card">
+<h2>🛰 Satélites</h2>
+<p>12</p>
+</div>
+
+<div class="card">
+<h2>🔥 Alertas</h2>
+<p id="alertas">0</p>
+</div>
+
+<div class="card">
+<h2>📡 Status</h2>
+<p id="status">OPERACIONAL</p>
+</div>
+
+<div class="card">
+<h2>🌡 Temperatura</h2>
+<p id="temperatura">25°C</p>
+</div>
+
+</section>
+
+<section class="botoes">
+
+<h2>Simulações Orbitais</h2>
+
+<button id="incendio">
+🔥 Incêndio
+</button>
+
+<button id="tempestade">
+⚡ Tempestade Solar
+</button>
+
+<button id="falha">
+📡 Falha Comunicação
+</button>
+
+<button id="normal">
+✅ Restaurar
+</button>
+<section class="tabela">
+
+<h2>📊 Eventos Registrados</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Horário</th>
+<th>Evento</th>
+</tr>
+
+</thead>
+
+<tbody id="corpoTabela">
+
+</tbody>
+
+</table>
+
+</section>
+
+
+<section class="historico">
+
+<h2>📋 Histórico</h2>
+
+<ul id="listaEventos"></ul>
+
+</section>
+
+<script src="script.js"></script>
+
+</div>
+
+</body>
+
+<div id="loginContainer">
+
+    <div class="loginBox">
+
+        <h2>🚀 OrbitGuard</h2>
+
+        <input
+        type="text"
+        id="usuario"
+        placeholder="Usuário">
+
+        <input
+        type="password"
+        id="senha"
+        placeholder="Senha">
+
+        <button id="btnLogin">
+            Entrar
+        </button>
+
+        <p id="erroLogin"></p>
+
+    </div>
+
+</div>
+
+<div id="sistema" style="display:none;">
+
+
+<header>
+
+    <img src="logo.png" class="logo" alt="Logo OrbitGuard">
+
+    <h1>OrbitGuard</h1>
+
+    <p>Centro de Monitoramento Orbital</p>
+
+    <div id="relogio"></div>
+
+</header>
+
+<section class="mapa">
+
+    <h2>🌍 Área Monitorada</h2>
+
+    <img src="terra.jpg" alt="Terra vista do espaço">
+
+</section>
+
+<section class="banner">
+
+    <img src="satelite.jpg" alt="Satélite">
+
+</section>
+
+<img src="imagens/logo.png" class="logo">
+
+<img src="imagens/satelite.jpg">
+
+<img src="imagens/terra.jpg">
+
+
+
+</html>
